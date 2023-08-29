@@ -1,0 +1,64 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #F6F8F9;
+}
+
+header {
+  background-color: white;
+}
+
+#logo {
+  padding: 17px;
+}
+
+header h1 {
+  display: inline-block;
+  vertical-align: 30px;
+  font-size: 40px;
+}
+
+main .container {
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.container .buttons {
+  padding-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 9px;
+  background-color: white;
+}
+
+.buttons button{
+  padding: 6px;
+  border-radius: 7px;
+}
+
+#add-task {
+  background-color: #47ADF1;
+  color: white;
+  margin-right: 5px;
+  border: #CED3D8
+}
+
+#add-section {
+  background-color:white ;
+  color: #CED3D8;
+  border: 1px solid lightgray;
+}
+
+.list-container {
+  background-color: white;
+  margin-top: 5px;
+  padding-left: 20px;
+}
+
+ul, ol {
+  list-style: none;
+}

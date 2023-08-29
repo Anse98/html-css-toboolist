@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <title>Toboolist</title>
 </head>
+
 <body>
   <!-- Logo e titolo header -->
   <header>
@@ -22,16 +24,45 @@
       </div>
       <!-- Fine "Header" del main con pulsanti -->
 
-      <!-- Inizio "corpo" del main -->
-      <div class="list-container">
-        <span class="down-arrow">&#129171;</span>
-        <h2> New Task</h2>
-        <ul id="new-task">
-          <li><span class="green-check">&check;</span> Quarterly Newsletter</li>
-        </ul>
-      </div>
+      <!-- Inizio contenitore della lista -->
+      <ul class="list-container">
 
+      <!-- Prima parte della lista   -->
+        <li class="list-sections">
+          ⯆<strong>New Task</strong>
+          <ul>
+            <li><span class="green-check">✓</span> Quarterly Newsletter</li>
+          </ul>
+        </li>
+      <!-- Fine prima parte della lista -->
+
+      <!-- Seconda parte della lista -->
+        <li class="list-sections">
+          ⯆<strong>Today</strong>
+          <ul>
+            <li><span class="green-check">✓</span> Recruiting blog post</li>
+            <li><span class="green-check">✓</span> Mobile app launch</li>
+            <li><span class="red-cross">&#10007;</span> Interview John H.</li>
+            <li><span class="green-check">✓</span> Summit update to mobile storefronts</li>
+          </ul>
+        </li class="list-sections">
+        <!-- Fine seconda parte della lista -->
+
+        <!-- Inizio ultima parte della lista -->
+        <li>
+          ⯆<strong>Upcoming</strong>
+          <ul>
+            <li><span class="red-cross">&#10007;</span> Recruiting blog post </li>
+            <li><span class="green-check">✓</span> Mobile app launch</li>
+            <li><span class="green-check">✓</span> Interview John H.</li>
+            <li><span class="green-check">✓</span> Summit update to mobile storefronts</li>
+          </ul>
+        </li>
+        <!-- Fine ultima parte della lista -->
+      </ul>
+      <!-- Fine contenitore della lista -->
     </div>
   </main>
 </body>
+
 </html>

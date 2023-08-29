@@ -63,17 +63,22 @@ ul, ol {
   list-style: none;
 }
 
-.list-container h2 {
-  font-size: 35px;
-  display: inline-block;
+li {
+  margin-bottom: 10px;
 }
 
-.down-arrow {
-  font-size: 40px;
-  vertical-align: middle;
-  
+.list-container strong {
+  font-size: 35px;
 }
 
 .green-check {
   color: rgb(28, 223, 28);
+}
+
+.red-cross {
+  color: red;
+}
+
+.list-sections {
+  margin-bottom: 20px;
 }

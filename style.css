@@ -62,3 +62,18 @@ main .container {
 ul, ol {
   list-style: none;
 }
+
+.list-container h2 {
+  font-size: 35px;
+  display: inline-block;
+}
+
+.down-arrow {
+  font-size: 40px;
+  vertical-align: middle;
+  
+}
+
+.green-check {
+  color: rgb(28, 223, 28);
+}

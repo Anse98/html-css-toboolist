@@ -1,4 +1,4 @@
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -6,13 +6,14 @@
 
 body {
   background-color: #F6F8F9;
+  font-family: 'Lato', sans-serif;
 }
 
 header {
   background-color: white;
 }
 
-#logo {
+header #logo {
   padding: 17px;
 }
 
@@ -35,20 +36,20 @@ main .container {
   background-color: white;
 }
 
-.buttons button{
+.buttons button {
   padding: 6px;
   border-radius: 7px;
 }
 
-#add-task {
+.buttons #add-task {
   background-color: #47ADF1;
   color: white;
   margin-right: 5px;
   border: #CED3D8
 }
 
-#add-section {
-  background-color:white ;
+.buttons #add-section {
+  background-color: white;
   color: #CED3D8;
   border: 1px solid lightgray;
 }
@@ -61,24 +62,66 @@ main .container {
 
 ul, ol {
   list-style: none;
+  margin-top: 10px;
+  font-size: 20px;
 }
 
 li {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .list-container strong {
   font-size: 35px;
 }
 
-.green-check {
-  color: rgb(28, 223, 28);
-}
-
-.red-cross {
-  color: red;
-}
-
 .list-sections {
   margin-bottom: 20px;
+}
+
+.list-sections .symbols {
+  border-radius: 50%;
+  padding: 5px;
+  font-size: 10px;
+}
+
+.list-sections .green-check {
+  color: rgb(28, 223, 28);
+  border: solid 1px rgb(28, 223, 28); 
+}
+
+.list-sections .red-cross {
+  color: red;
+  border: solid 1px red;
+}
+
+.list-container .cards { 
+  border:1px solid white;
+  border-radius:23px; 
+  padding:9px;
+  color: white;
+  font-size: 12px;
+}
+
+.list-container .cards-azur {
+  background-color:#47ADF1;
+}
+
+.list-container .cards-purple {
+  background-color: rebeccapurple;
+}
+
+.list-container .cards-green {
+  background-color:#64C0A9 ;
+}
+
+.list-container .cards-orange {
+  background-color:#F29E33 ;
+}
+
+.list-container .cards-pink {
+  background-color: #D863A1;
+}
+
+.list-container .cards-olivegreen {
+  background-color:#B0C926 ;
 }
